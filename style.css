@@ -1,157 +1,172 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
 }
-:root{
-    font-size: 62.5% ; /* 10px */
+:root {
+  font-size: 62.5%; /* 10px */
 }
-body{
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 1.2rem;
-    background: #F5F5F5;
+body {
+  font-family: "Quicksand", sans-serif;
+  padding-top: 1.2rem;
+  background: #f5f5f5;
 }
 
-.cabecalho{
-    display:flex ;
-    justify-content: space-between;
-    margin-left:4.4rem;
-    margin-right: 2.7rem;
-    margin-bottom: 3rem;
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4.4rem;
+  margin-right: 2.7rem;
+  margin-bottom: 3rem;
 }
-.cabecalho span{
-    font-family: 'Inter';
-    font-size: 2rem;
-    line-height: 2.42rem;
-    color: #000000;
+.cabecalho span {
+  font-family: "Inter";
+  font-size: 2rem;
+  line-height: 2.42rem;
+  color: #000000;
 }
-.icons-header img{
-    width: 2rem;
-    height: 2rem;
+.icons-header img {
+  width: 2rem;
+  height: 2rem;
 }
-.container{
-    display:block;
-    text-align: center;
+.container {
+  display: block;
+  text-align: center;
 }
-.container p{
-    padding-top:4.5rem ;
-    font-weight: bold;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #000000;
+.container p {
+  padding-top: 4.5rem;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #000000;
 }
-main{
-    margin-bottom: 5.8rem;
+main {
+  margin-bottom: 5.8rem;
 }
-main fieldset{
-    margin-top:5.8rem ;
-    display: flex;
-    flex-direction: column;
-    gap: 5.7rem;
-    border: none;
-    margin-left:1.6rem ;
-
+main fieldset {
+  margin-top: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5.7rem;
+  border: none;
+  margin-left: 1.6rem;
 }
-.input-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
-.input-wrapper label{
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #000000;
-    opacity: 0.6;
+.input-wrapper label {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #000000;
+  opacity: 0.6;
 }
-.input-wrapper input{
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-top-width: 0;
-    border-right-width: 0;
-    border-left-width: 0;
-    opacity: 0.4;
-    width: 80%;
-    margin-left: 1rem;
-    background: #F5F5F5;
+.input-wrapper input {
+  border-style: solid;
+  border-bottom-width: 0.1rem;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  opacity: 0.6;
+  width: 80%;
+  margin-left: 1rem;
+  background: #f5f5f5;
+  color: #000000;
 }
-footer{
-    padding: 0 3.1rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 1.6rem;
+.input-wrapper input:focus {
+  outline: none;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
-.button{
-    width: 100%;
-    font-family: 'Quicksand';
-    height: 4.8rem;
-    background: #33EEDD;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 2.4rem;
-    line-height: 3rem;
-    color: #FFFFFF;
-    box-shadow: 3px 8px 12px 3px rgba(212, 201, 201,0.88);
+footer {
+  padding: 0 3.1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 1.6rem;
 }
-footer p{
-    margin-bottom: 0.5rem;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #313131;
+.button {
+  width: 100%;
+  font-family: "Quicksand";
+  height: 4.8rem;
+  background: #33eedd;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: #ffffff;
+  box-shadow: 3px 8px 12px 3px rgba(212, 201, 201, 0.88);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
-footer a{
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #33EEDD;
-    margin-left: 0.6rem;
+.button:hover {
+  background: #2ec4b6;
+  transform: scale(1.07);
 }
-footer fieldset{
-    border-top: 1px solid rgba(49, 49, 49, 0.5);
-    width: 100%;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    display: block;
-    text-align: center;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #313131;
+footer p {
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #313131;
 }
-footer fieldset legend{
-    padding: 0 1.5rem;
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #33eedd;
+  margin-left: 0.6rem;
 }
-.social{
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-    margin-bottom: 8rem;
-    width: 100%;
+footer fieldset {
+  border-top: 1px solid rgba(49, 49, 49, 0.5);
+  width: 100%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #313131;
 }
-.social a{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    font-family: 'Quicksand';
-    height: 4.8rem;
-    background: #fff;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    font-size: 1.6rem;
-    line-height: 2rem;
-    color: #313131;
-    padding-left:1.9rem ;
-    box-shadow: 3px 8px 12px 3px rgba(212, 201, 201,0.88);
+footer fieldset legend {
+  padding: 0 1.5rem;
 }
-.social a:first-child{
-    background: #1877F2;
-    color: #FFFFFF;
-
-}.social a img{
-    padding-right: 1.8rem;
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 8rem;
+  width: 100%;
+}
+.social a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Quicksand";
+  height: 4.8rem;
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #313131;
+  padding-left: 1.9rem;
+  box-shadow: 3px 8px 12px 3px rgba(212, 201, 201, 0.88);
+  transition: all 0.3s ease-in-out;
+}
+.social a:hover {
+  transform: scale(1.07);
+}
+.social a:first-child {
+  background: #1877f2;
+  color: #ffffff;
+}
+.social a img {
+  padding-right: 1.8rem;
 }

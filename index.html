@@ -1,67 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>SkateVideos</title>
 
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-            <div class="cabecalho">
-                <span>10:06</span>
-                <div class="icons-header">
-                    <img src="/imagem/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                    <img src="/imagem/wifi_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                    <img src="/imagem/battery_6_bar_FILL0_wght400_GRAD0_opsz48.svg" alt="">
-                </div>
-            </div>
-            <div class="container">
-                <img src="imagem/Logo 1.png" alt="">
-                <p>Insira aqui suas informações</p>
-            </div>
+      <div class="cabecalho">
+        <span>10:06</span>
+        <div class="icons-header">
+          <img
+            src="/imagem/signal_cellular_alt_FILL0_wght400_GRAD0_opsz48.svg"
+            alt=""
+          />
+          <img src="/imagem/wifi_FILL0_wght400_GRAD0_opsz48.svg" alt="" />
+          <img
+            src="/imagem/battery_6_bar_FILL0_wght400_GRAD0_opsz48.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="container">
+        <img src="imagem/Logo 1.png" alt="" />
+        <p>Insira aqui suas informações</p>
+      </div>
     </header>
     <main>
-        <form id="my-form">
-            <fieldset>
-                <div class="input-wrapper">
-                    <label for="event-name"><img src="/imagem/face.svg" alt=""> Nome completo</label>
-                    <input type="text" id="event-name"required/>
-                </div>
+      <form id="my-form">
+        <fieldset>
+          <div class="input-wrapper">
+            <label for="event-name"
+              ><img src="/imagem/face.svg" alt="" /> Nome completo</label
+            >
+            <input type="text" id="event-name" required />
+          </div>
 
-                <div class="input-wrapper">
-                    <label for="event-email"><img src="/imagem/alternate_email.svg" alt=""> E-mail</label>
-                    <input type="email" id="event-email"required/>
-                </div>
-
-                <div class="input-wrapper">
-                    <label for="event-password"><img src="/imagem/lock.svg" alt=""> Senha</label>
-                    <input type="password" id="event-password"required/>
-                </div>
-            </fieldset>
-        </form>
+          <div class="input-wrapper">
+            <label for="event-email"
+              ><img src="/imagem/alternate_email.svg" alt="" /> E-mail</label
+            >
+            <input type="email" id="event-email" required />
+          </div>
+          <div class="input-wrapper">
+            <label for="event-password"
+              ><img src="/imagem/lock.svg" alt="" /> Senha</label
+            >
+            <input type="password" id="event-password" required />
+          </div>
+        </fieldset>
+      </form>
     </main>
     <footer>
-        <input class="button" 
-            type="submit" 
-            form="my-form"
-            value="Cadastrar">
-        <p>Já tem conta?<a href="#">Entrar</a></p>
-        <fieldset>
-            <legend>OU</legend>
-        </fieldset>
-        <div class="social">
-            <a href="https://pt-br.facebook.com/"><img src="/imagem/path14.png"alt="">Continuar com o Facebook</a>
-            <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fhl%3Dpt_BR%26utm_source%3DOGB%26utm_medium%3Dact&hl=pt_BR&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession"><img src="/imagem/logo googleg 48dp.png" alt="">Continuar com o Google</a>
-        </div>
+      <input class="button" type="submit" form="my-form" value="Cadastrar" />
+      <p>Já tem conta?<a href="#">Entrar</a></p>
+      <fieldset>
+        <legend>OU</legend>
+      </fieldset>
+      <div class="social">
+        <a href="https://pt-br.facebook.com/"
+          ><img src="/imagem/path14.png" alt="" />Continuar com o Facebook</a
+        >
+        <a
+          href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fhl%3Dpt_BR%26utm_source%3DOGB%26utm_medium%3Dact&hl=pt_BR&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession"
+          ><img src="/imagem/logo googleg 48dp.png" alt="" />Continuar com o
+          Google</a
+        >
+      </div>
     </footer>
-</body>
+    <script src="./main.js"></script>
+  </body>
 </html>
